@@ -1,0 +1,32 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 40 -defaultsOSRD
+preplace port sws_8bits -pg 1 -y 730 -defaultsOSRD
+preplace port leds_8bits -pg 1 -y 370 -defaultsOSRD
+preplace port btns_5bits -pg 1 -y 610 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 60 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -y 380 -defaultsOSRD
+preplace inst Sine -pg 1 -lvl 2 -y 560 -defaultsOSRD
+preplace inst PUSH_BUTTONS_POSITION -pg 1 -lvl 2 -y 700 -defaultsOSRD
+preplace inst DIP_SWITCHES_8BITS -pg 1 -lvl 2 -y 840 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 3 -y 470 -defaultsOSRD
+preplace inst LEDS_8BITS -pg 1 -lvl 2 -y 370 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -y 130 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 2 3 NJ 30 NJ 30 1170J
+preplace netloc ps7_0_axi_periph_M02_AXI 1 1 3 390 770 NJ 770 1100
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 1 830
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 3 20 290 NJ 290 780
+preplace netloc ps7_0_axi_periph_M03_AXI 1 1 3 390 630 800J 650 1090
+preplace netloc DIP_SWITCHES_8BITS_GPIO 1 2 3 NJ 840 NJ 840 1170
+preplace netloc LEDS_8BITS_GPIO 1 2 3 790J 270 NJ 270 1170
+preplace netloc PUSH_BUTTONS_POSITION_GPIO 1 2 3 NJ 700 NJ 700 1170
+preplace netloc ps7_0_axi_periph_M01_AXI 1 1 3 390 300 800J 290 1090
+preplace netloc rst_ps7_0_50M_interconnect_aresetn 1 1 2 350J 440 820
+preplace netloc processing_system7_0_FIXED_IO 1 2 3 NJ 50 NJ 50 1170J
+preplace netloc rst_ps7_0_50M_peripheral_aresetn1 1 1 2 370 470 830
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 30 490 360 490 810
+preplace netloc ps7_0_axi_periph_M00_AXI 1 1 3 380 280 NJ 280 1100
+levelinfo -pg 1 0 190 590 960 1150 1190 -top -10 -bot 910
+",
+}

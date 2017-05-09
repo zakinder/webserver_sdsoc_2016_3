@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+    [bootloader]../../../software/te0720_1cr/zynq_fsbl.elf
+    ../../../hardware/te0720_1cr/SOC_V1_ZYNQ.bit
+    ../../../os/petalinux/default/u-boot.elf
+}

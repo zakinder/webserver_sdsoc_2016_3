@@ -1,0 +1,115 @@
+#-----------------------------------------------------------
+# Vivado v2016.3_sdx (64-bit)
+# SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+# IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+# Start of session at: Tue May 09 04:53:54 2017
+# Process ID: 3744
+# Current directory: D:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.runs/zynq_soc_auto_pc_0_synth_1
+# Command line: vivado.exe -log zynq_soc_auto_pc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zynq_soc_auto_pc_0.tcl
+# Log file: D:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.runs/zynq_soc_auto_pc_0_synth_1/zynq_soc_auto_pc_0.vds
+# Journal file: D:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.runs/zynq_soc_auto_pc_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/SDx/2016.3/Vivado/scripts/init.tcl'
+16 Beta devices matching pattern found, 16 enabled.
+Loaded SDSoC Platform Tcl Library
+source zynq_soc_auto_pc_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 354.281 ; gain = 144.664
+INFO: [Synth 8-638] synthesizing module 'zynq_soc_auto_pc_0' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ip/zynq_soc_auto_pc_0/synth/zynq_soc_auto_pc_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_axi_protocol_converter' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4806]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4224]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_aw_channel' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3969]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_cmd_translator' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3467]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_incr_cmd' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3093]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_incr_cmd' (1#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3093]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_wrap_cmd' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2903]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_wrap_cmd' (2#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2903]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_cmd_translator' (3#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3467]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_wr_cmd_fsm' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3225]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_wr_cmd_fsm' (4#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3225]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_aw_channel' (5#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3969]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_b_channel' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3609]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_simple_fifo' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_simple_fifo' (6#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_simple_fifo__parameterized0' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_simple_fifo__parameterized0' (6#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_b_channel' (7#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3609]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_ar_channel' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4080]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_rd_cmd_fsm' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3336]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_rd_cmd_fsm' (8#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3336]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_ar_channel' (9#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4080]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_r_channel' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3809]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_simple_fifo__parameterized1' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_simple_fifo__parameterized1' (9#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_10_b2s_simple_fifo__parameterized2' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_simple_fifo__parameterized2' (9#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:2816]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s_r_channel' (10#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:3809]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (11#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice' (12#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized0' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized0' (12#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized1' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized1' (12#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized2' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized2' (12#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (13#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice' (14#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice__parameterized0' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (14#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized3' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized3' (14#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized4' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized4' (14#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized5' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized5' (14#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized6' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized6' (14#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized7' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axic_register_slice__parameterized7' (14#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (14#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_10_axi_register_slice__parameterized0' (14#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/7efe/hdl/axi_register_slice_v2_1_vl_rfs.v:791]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_b2s' (15#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4224]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_10_axi_protocol_converter' (16#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ipshared/4a8b/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4806]
+INFO: [Synth 8-256] done synthesizing module 'zynq_soc_auto_pc_0' (17#1) [d:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/vivado/webserver/webserver_sdsoc_2016_3.srcs/sources_1/bd/zynq_soc/ip/zynq_soc_auto_pc_0/synth/zynq_soc_auto_pc_0.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:00:41 ; elapsed = 00:00:48 . Memory (MB): peak = 469.637 ; gain = 260.020
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:41 ; elapsed = 00:00:48 . Memory (MB): peak = 469.637 ; gain = 260.020
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 719.754 ; gain = 0.168
+Finished Constraint Validation : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 719.754 ; gain = 510.137
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 719.754 ; gain = 510.137
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:50 ; elapsed = 00:00:57 . Memory (MB): peak = 719.754 ; gain = 510.137
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:51 ; elapsed = 00:00:58 . Memory (MB): peak = 719.754 ; gain = 510.137
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:52 ; elapsed = 00:01:00 . Memory (MB): peak = 719.754 ; gain = 510.137
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:01 ; elapsed = 00:01:09 . Memory (MB): peak = 719.754 ; gain = 510.137
+Finished Timing Optimization : Time (s): cpu = 00:01:03 ; elapsed = 00:01:10 . Memory (MB): peak = 721.184 ; gain = 511.566
+Finished Technology Mapping : Time (s): cpu = 00:01:03 ; elapsed = 00:01:11 . Memory (MB): peak = 726.773 ; gain = 517.156
+Finished IO Insertion : Time (s): cpu = 00:01:04 ; elapsed = 00:01:11 . Memory (MB): peak = 726.773 ; gain = 517.156
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:04 ; elapsed = 00:01:11 . Memory (MB): peak = 726.773 ; gain = 517.156
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:04 ; elapsed = 00:01:11 . Memory (MB): peak = 726.773 ; gain = 517.156
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:04 ; elapsed = 00:01:11 . Memory (MB): peak = 726.773 ; gain = 517.156
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:04 ; elapsed = 00:01:12 . Memory (MB): peak = 726.773 ; gain = 517.156
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:04 ; elapsed = 00:01:12 . Memory (MB): peak = 726.773 ; gain = 517.156
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |    18|
+|2     |LUT1    |    37|
+|3     |LUT2    |    17|
+|4     |LUT3    |   234|
+|5     |LUT4    |    40|
+|6     |LUT5    |    72|
+|7     |LUT6    |   107|
+|8     |SRL16E  |    22|
+|9     |SRLC32E |    47|
+|10    |FDRE    |   548|
+|11    |FDSE    |    52|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:04 ; elapsed = 00:01:12 . Memory (MB): peak = 726.773 ; gain = 517.156
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:02 . Memory (MB): peak = 735.852 ; gain = 457.746

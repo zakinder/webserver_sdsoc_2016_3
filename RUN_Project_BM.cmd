@@ -124,7 +124,7 @@ REM VIVADO AVAILABLE THEN RUN
 REM RUN
 :RUN
 REM CHANGE TO LOG FOLDER ****** vlog_folder ******
-@set vlog_folder=%batchfile_path%logs_%VPROJECTFOLDER%
+@set vlog_folder=%batchfile_path%v_log
 @echo %vlog_folder%
 @if not exist %vlog_folder% ( @mkdir %vlog_folder% )   
 @cd %vlog_folder%

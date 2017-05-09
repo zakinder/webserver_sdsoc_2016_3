@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+    [bootloader]../../../software/te0720_1qf/zynq_fsbl.elf
+    ../../../hardware/te0720_1qf/SOC_V1_ZYNQ.bit
+    ../../../software/te0720_1qf/hello_world.elf
+}
