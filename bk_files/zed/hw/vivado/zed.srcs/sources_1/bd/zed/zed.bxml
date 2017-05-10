@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="33">
+  <CompositeFile CompositeFileTopName="zed" CanBeSetAsTop="true" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1476744375"/>
+    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1476744375"/>
+    <Generation Name="SIMULATION" State="STALE" Timestamp="1476744375"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip/zed_ps7_0/zed_ps7_0.xci" Type="IP">
+        <Instance HierarchyPath="ps7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1386194075" IsTrackable="true" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/zed_xlconcat_0/zed_xlconcat_0.xci" Type="IP">
+        <Instance HierarchyPath="xlconcat"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1386006877" IsTrackable="true" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/zed_proc_sys_reset_1_0/zed_proc_sys_reset_1_0.xci" Type="IP">
+        <Instance HierarchyPath="proc_sys_reset_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1386006877" IsTrackable="true" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/zed_proc_sys_reset_2_1/zed_proc_sys_reset_2_1.xci" Type="IP">
+        <Instance HierarchyPath="proc_sys_reset_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1386006877" IsTrackable="true" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/zed_proc_sys_reset_3_2/zed_proc_sys_reset_3_2.xci" Type="IP">
+        <Instance HierarchyPath="proc_sys_reset_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1386006877" IsTrackable="true" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/zed_proc_sys_reset_0_3/zed_proc_sys_reset_0_3.xci" Type="IP">
+        <Instance HierarchyPath="proc_sys_reset_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1386006877" IsTrackable="true" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

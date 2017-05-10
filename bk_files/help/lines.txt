@@ -1,0 +1,3 @@
+ZQ::ADV::beta_util_sdsoc_project -check_only
+ZQ::ADV::beta_util_sdsoc_project
+ZQ::ADV::beta_util_sdsoc_project -start_sdsoc

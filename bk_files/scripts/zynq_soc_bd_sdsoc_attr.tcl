@@ -1,0 +1,6 @@
+set_property SDSOC_PFM.MARK_SDSOC TRUE [get_bd_pins /processing_system7_0/FCLK_CLK0 ]
+set_property SDSOC_PFM.CLOCK_ID 0 [get_bd_pins /processing_system7_0/FCLK_CLK0 ]
+set_property SDSOC_PFM.MARK_SDSOC TRUE [get_bd_intf_pins /processing_system7_0/M_AXI_GP0 ]
+set_property SDSOC_PFM.MARK_SDSOC TRUE [get_bd_pins /rst_ps7_0_50M/peripheral_reset ]
+set_property SDSOC_PFM.MARK_SDSOC TRUE [get_bd_pins /rst_ps7_0_50M/interconnect_aresetn ]
+set_property SDSOC_PFM.MARK_SDSOC TRUE [get_bd_pins /rst_ps7_0_50M/peripheral_aresetn ]
