@@ -33,8 +33,8 @@ sdsoc::generate_hw_pfm $pfm
 **LAUNCH SDSOC
 **WORKSPACE -->POINT TO .SDK FOLDER
 **SELECT XILINX -->HARDWARE PLATFORM SPECIFICATION
-** SO FOR BSP[EDIT TO ADD LWIP and MEM] and FSBL
-
+**SO FOR BSP[EDIT TO ADD LWIP and MEM] and FSBL
+**LARGE AMOUNT OF DATA USING SDS_ALLOC -->HEAP SIZE TO 0X4000
 *********************************************************************************
 cd hw/vivado
 source -notrace c:/Xilinx/SDx/2016.3/scripts/vivado/sdsoc_pfm.tcl
