@@ -35,6 +35,14 @@ sdsoc::generate_hw_pfm $pfm
 **SELECT XILINX -->HARDWARE PLATFORM SPECIFICATION
 **SO FOR BSP[EDIT TO ADD LWIP and MEM] and FSBL
 **LARGE AMOUNT OF DATA USING SDS_ALLOC -->HEAP SIZE TO 0X4000
+**
+**
+**SDX CHANGE THE WORKSPACE
+**NEW > XILINX SDX PROJECT
+**ADD CUSTOM PLATFORM
+**CUSTOM PLATFORM ENTRY
+**STANDALONE
+**SELECT THE XXX APPLICATION
 *********************************************************************************
 cd hw/vivado
 source -notrace c:/Xilinx/SDx/2016.3/scripts/vivado/sdsoc_pfm.tcl
@@ -53,4 +61,36 @@ for {set i 0} {$i < 16} {incr i} {
 sdsoc::pfm_irq $pfm In$i xlconcat_0
 }
 sdsoc::generate_hw_pfm $pfm
+*********************************************************************************
+BEGIN LIBRARY
+ PARAMETER LIBRARY_NAME = lwip141
+ PARAMETER LIBRARY_VER = 1.6
+ PARAMETER PROC_INSTANCE = ps7_cortexa9_0
+ PARAMETER dhcp_does_arp_check = true
+ PARAMETER emac_number = 1
+ PARAMETER lwip_dhcp = true
+ PARAMETER lwip_stats = true
+ PARAMETER mem_size = 524288
+ PARAMETER memp_n_pbuf = 8192
+ PARAMETER memp_n_tcp_pcb = 1024
+ PARAMETER memp_n_tcp_seg = 1024
+ PARAMETER n_rx_descriptors = 256
+ PARAMETER n_tx_descriptors = 256
+ PARAMETER pbuf_pool_size = 4096
+ PARAMETER tcp_debug = true
+ PARAMETER tcp_snd_buf = 65535
+ PARAMETER tcp_wnd = 65535
+ PARAMETER temac_use_jumbo_frames = true
+END
+
+
+BEGIN LIBRARY
+ PARAMETER LIBRARY_NAME = xilmfs
+ PARAMETER LIBRARY_VER = 2.1
+ PARAMETER PROC_INSTANCE = ps7_cortexa9_0
+ PARAMETER base_address = 0x7200000
+ PARAMETER init_type = MFSINIT_IMAGE
+ PARAMETER need_utils = true
+ PARAMETER numbytes = 0xA00000
+END
 *********************************************************************************
