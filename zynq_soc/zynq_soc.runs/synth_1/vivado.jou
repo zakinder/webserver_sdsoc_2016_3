@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3_sdx (64-bit)
+# SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+# IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+# Start of session at: Wed May 10 23:49:31 2017
+# Process ID: 10228
+# Current directory: C:/Sim/arch/zynq_soc/zynq_soc.runs/synth_1
+# Command line: vivado.exe -log zynq_soc_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zynq_soc_wrapper.tcl
+# Log file: C:/Sim/arch/zynq_soc/zynq_soc.runs/synth_1/zynq_soc_wrapper.vds
+# Journal file: C:/Sim/arch/zynq_soc/zynq_soc.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source zynq_soc_wrapper.tcl -notrace

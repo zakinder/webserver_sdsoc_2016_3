@@ -1,0 +1,404 @@
+00:31:40 **** Build of project webserver_sdkv_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/lwip141_v1_6/src"
+make -C ps7_cortexa9_0/libsrc/lwip141_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/Sine_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/Sine_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/wdtps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/wdtps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make include in ps7_cortexa9_0/libsrc/xilmfs_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xilmfs_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_2/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/lwip141_v1_6/src"
+make -C ps7_cortexa9_0/libsrc/lwip141_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling lwip src and adapter files"
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/init.c -o init.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [init.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/mem.c -o mem.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [mem.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/memp.c -o memp.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [memp.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/netif.c -o netif.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [netif.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/pbuf.c -o pbuf.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [pbuf.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/raw.c -o raw.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [raw.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/stats.c -o stats.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [stats.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/def.c -o def.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [def.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/timers.c -o timers.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [timers.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/sys.c -o sys.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [sys.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/netif/etharp.c -o etharp.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [etharp.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/ipv4/ip_addr.c -o ip_addr.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [ip_addr.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/ipv4/icmp.c -o icmp.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [icmp.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/ipv4/igmp.c -o igmp.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [igmp.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/ipv4/inet.c -o inet.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [inet.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/ipv4/inet_chksum.c -o inet_chksum.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [inet_chksum.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/ipv4/ip.c -o ip.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [ip.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/ipv4/ip_frag.c -o ip_frag.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [ip_frag.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/tcp.c -o tcp.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [tcp.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/tcp_in.c -o tcp_in.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [tcp_in.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/tcp_out.c -o tcp_out.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [tcp_out.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/udp.c -o udp.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [udp.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c lwip-1.4.1/src/core/dhcp.c -o dhcp.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [dhcp.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c contrib/ports/xilinx/sys_arch_raw.c -o sys_arch_raw.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [sys_arch_raw.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c contrib/ports/xilinx/netif/xpqueue.c -o xpqueue.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [xpqueue.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c contrib/ports/xilinx/netif/xadapter.c -o xadapter.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [xadapter.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c contrib/ports/xilinx/netif/xtopology_g.c -o xtopology_g.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [xtopology_g.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c contrib/ports/xilinx/netif/xemacpsif_hw.c -o xemacpsif_hw.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [xemacpsif_hw.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c contrib/ports/xilinx/netif/xemacpsif_physpeed.c -o xemacpsif_physpeed.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [xemacpsif_physpeed.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c contrib/ports/xilinx/netif/xemacpsif.c -o xemacpsif.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [xemacpsif.o] Error 2
+process_begin: CreateProcess(NULL, arm-xilinx-eabi-gcc -O2 -c -DPROCESSOR_LITTLE_ENDIAN -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -I../../../include -Ilwip-1.4.1/src/include -Ilwip-1.4.1/src/include/ipv4 -Icontrib/ports/xilinx/include -c contrib/ports/xilinx/netif/xemacpsif_dma.c -o xemacpsif_dma.o, ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make[1]: *** [xemacpsif_dma.o] Error 2
+make[1]: Target `libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/lwip141_v1_6/src/make.libs] Error 2
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/Sine_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/Sine_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling Sine..."
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/wdtps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/wdtps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling wdtps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+"Compiling xadcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xilmfs_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xilmfs_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+mfs_filesys_util.c: In function 'mfs_ls_r':
+mfs_filesys_util.c:75:2: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+  print("Directory ");
+  ^
+mfs_filesys_util.c:78:2: warning: implicit declaration of function 'putnum' [-Wimplicit-function-declaration]
+  putnum(entry_size);
+  ^
+make: Target `all' not remade because of errors.
+00:32:05 **** Build of configuration Debug for project webserver_sdkv ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/webserver/web_utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver/web_utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../webserver_sdkv_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver/web_utils.d" -MT"src/webserver/web_utils.o" -o "src/webserver/web_utils.o" "../src/webserver/web_utils.c"
+In file included from ../src/webserver/../gpio/platform_gpio.h:3:0,
+                 from ../src/webserver/web_utils.c:6:
+../../webserver_sdkv_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../webserver_sdkv_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/webserver/web_utils.c'
+' '
+'Building file: ../src/webserver/webserver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver/webserver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../webserver_sdkv_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver/webserver.d" -MT"src/webserver/webserver.o" -o "src/webserver/webserver.o" "../src/webserver/webserver.c"
+'Finished building: ../src/webserver/webserver.c'
+' '
+'Building file: ../src/tftpserver/tftpserver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tftpserver/tftpserver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../webserver_sdkv_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tftpserver/tftpserver.d" -MT"src/tftpserver/tftpserver.o" -o "src/tftpserver/tftpserver.o" "../src/tftpserver/tftpserver.c"
+'Finished building: ../src/tftpserver/tftpserver.c'
+' '
+'Building file: ../src/tftpserver/tftputils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tftpserver/tftputils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../webserver_sdkv_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tftpserver/tftputils.d" -MT"src/tftpserver/tftputils.o" -o "src/tftpserver/tftputils.o" "../src/tftpserver/tftputils.c"
+'Finished building: ../src/tftpserver/tftputils.c'
+' '
+'Building file: ../src/rx_tx/dispatch.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rx_tx/dispatch.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../webserver_sdkv_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rx_tx/dispatch.d" -MT"src/rx_tx/dispatch.o" -o "src/rx_tx/dispatch.o" "../src/rx_tx/dispatch.c"
+'Finished building: ../src/rx_tx/dispatch.c'
+' '
+'Building file: ../src/rx_tx/rxperf.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rx_tx/rxperf.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../webserver_sdkv_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rx_tx/rxperf.d" -MT"src/rx_tx/rxperf.o" -o "src/rx_tx/rxperf.o" "../src/rx_tx/rxperf.c"
+'Finished building: ../src/rx_tx/rxperf.c'
+' '
+'Building file: ../src/rx_tx/txperf.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rx_tx/txperf.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../webserver_sdkv_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rx_tx/txperf.d" -MT"src/rx_tx/txperf.o" -o "src/rx_tx/txperf.o" "../src/rx_tx/txperf.c"
+'Finished building: ../src/rx_tx/txperf.c'
+' '
+'Building file: ../src/rx_tx/urxperf.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rx_tx/urxperf.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../webserver_sdkv_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rx_tx/urxperf.d" -MT"src/rx_tx/urxperf.o" -o "src/rx_tx/urxperf.o" "../src/rx_tx/urxperf.c"
+'Finished building: ../src/rx_tx/urxperf.c'
+' '
+'Building file: ../src/rx_tx/utxperf.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rx_tx/utxperf.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../webserver_sdkv_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rx_tx/utxperf.d" -MT"src/rx_tx/utxperf.o" -o "src/rx_tx/utxperf.o" "../src/rx_tx/utxperf.c"
+'Finished building: ../src/rx_tx/utxperf.c'
+' '
+'Building file: ../src/prot_malloc/prot_malloc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/prot_malloc/prot_malloc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../webserver_sdkv_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/prot_malloc/prot_malloc.d" -MT"src/prot_malloc/prot_malloc.o" -o "src/prot_malloc/prot_malloc.o" "../src/prot_malloc/prot_malloc.c"
+'Finished building: ../src/prot_malloc/prot_malloc.c'
+' '
+'Building file: ../src/platform/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../webserver_sdkv_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform/platform.d" -MT"src/platform/platform.o" -o "src/platform/platform.o" "../src/platform/platform.c"
+'Finished building: ../src/platform/platform.c'
+' '
+'Building file: ../src/platform/platform_fs.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform/platform_fs.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../webserver_sdkv_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform/platform_fs.d" -MT"src/platform/platform_fs.o" -o "src/platform/platform_fs.o" "../src/platform/platform_fs.c"
+'Finished building: ../src/platform/platform_fs.c'
+' '
+'Building file: ../src/http/http_response.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/http/http_response.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../webserver_sdkv_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/http/http_response.d" -MT"src/http/http_response.o" -o "src/http/http_response.o" "../src/http/http_response.c"
+In file included from ../src/http/../gpio/platform_gpio.h:3:0,
+                 from ../src/http/http_response.c:9:
+../../webserver_sdkv_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../webserver_sdkv_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/http/http_response.c: In function 'STRING_TO_NUMBERS':
+../src/http/http_response.c:127:5: warning: variable 'point_seen' set but not used [-Wunused-but-set-variable]
+ int point_seen=0;
+     ^
+../src/http/http_response.c: In function 'STRING_TO_NUMBER':
+../src/http/http_response.c:154:8: warning: variable 'point_seen' set but not used [-Wunused-but-set-variable]
+    int point_seen=0;
+        ^
+../src/http/http_response.c: In function 'DO_HTTP_POST':
+../src/http/http_response.c:274:23: warning: passing argument 1 of 'pbuf_free' from incompatible pointer type [-Wincompatible-pointer-types]
+             pbuf_free(p);
+                       ^
+In file included from ../../webserver_sdkv_bsp/ps7_cortexa9_0/include/lwip/tcp.h:40:0,
+                 from ../src/http/http_response.c:3:
+../../webserver_sdkv_bsp/ps7_cortexa9_0/include/lwip/pbuf.h:155:6: note: expected 'struct pbuf *' but argument is of type 'char *'
+ u8_t pbuf_free(struct pbuf *p);
+      ^
+../src/http/http_response.c:285:15: warning: unused variable 'json_response' [-Wunused-variable]
+         char *json_response = "PL_PS_STREAMER_ASSERT";
+               ^
+../src/http/http_response.c:346:6: warning: 'optimize' attribute ignored [-Wattributes]
+      char buf1[1400] __attribute__ ((unused)) __attribute__((optimize("O0")));
+      ^
+../src/http/http_response.c:248:9: warning: unused variable 'count' [-Wunused-variable]
+     int count = 0;
+         ^
+../src/http/http_response.c: In function 'CONVERT_CHAR_S':
+../src/http/http_response.c:199:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/http/http_response.c: In function 'UNPACK':
+../src/http/http_response.c:227:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/http/http_response.c'
+' '
+'Building file: ../src/gpio/platform_gpio.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio/platform_gpio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../webserver_sdkv_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/gpio/platform_gpio.d" -MT"src/gpio/platform_gpio.o" -o "src/gpio/platform_gpio.o" "../src/gpio/platform_gpio.c"
+In file included from ../src/gpio/platform_gpio.h:3:0,
+                 from ../src/gpio/platform_gpio.c:1:
+../../webserver_sdkv_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../webserver_sdkv_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/gpio/platform_gpio.c: In function 'adcchannels':
+../src/gpio/platform_gpio.c:427:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("%i\n",ch00(&ch_ptr,&interrupt));
+  ^
+../src/gpio/platform_gpio.c:427:2: warning: incompatible implicit declaration of built-in function 'printf'
+../src/gpio/platform_gpio.c:427:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+'Finished building: ../src/gpio/platform_gpio.c'
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../webserver_sdkv_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../webserver_sdkv_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:39:2: warning: implicit declaration of function 'WRITE_SET0' [-Wimplicit-function-declaration]
+  WRITE_SET0();
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: webserver_sdkv.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../webserver_sdkv_bsp/ps7_cortexa9_0/lib -o "webserver_sdkv.elf"  ./src/webserver/web_utils.o ./src/webserver/webserver.o  ./src/tftpserver/tftpserver.o ./src/tftpserver/tftputils.o  ./src/rx_tx/dispatch.o ./src/rx_tx/rxperf.o ./src/rx_tx/txperf.o ./src/rx_tx/urxperf.o ./src/rx_tx/utxperf.o  ./src/prot_malloc/prot_malloc.o  ./src/platform/platform.o ./src/platform/platform_fs.o  ./src/http/http_response.o  ./src/gpio/platform_gpio.o  ./src/echo.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+c:/xilinx/sdx/2016.3/sdk/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/bin/ld.exe: cannot find -llwip4
+collect2.exe: error: ld returned 1 exit status
+make: *** [webserver_sdkv.elf] Error 1

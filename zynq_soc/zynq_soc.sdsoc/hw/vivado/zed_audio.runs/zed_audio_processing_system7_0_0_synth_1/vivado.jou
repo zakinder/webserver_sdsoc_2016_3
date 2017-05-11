@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3_sdx (64-bit)
+# SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+# IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+# Start of session at: Wed May 10 23:11:47 2017
+# Process ID: 10868
+# Current directory: C:/Sim/2016_3_zed_source/lab7/zed_audio/hw/vivado/zed_audio.runs/zed_audio_processing_system7_0_0_synth_1
+# Command line: vivado.exe -log zed_audio_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zed_audio_processing_system7_0_0.tcl
+# Log file: C:/Sim/2016_3_zed_source/lab7/zed_audio/hw/vivado/zed_audio.runs/zed_audio_processing_system7_0_0_synth_1/zed_audio_processing_system7_0_0.vds
+# Journal file: C:/Sim/2016_3_zed_source/lab7/zed_audio/hw/vivado/zed_audio.runs/zed_audio_processing_system7_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source zed_audio_processing_system7_0_0.tcl -notrace

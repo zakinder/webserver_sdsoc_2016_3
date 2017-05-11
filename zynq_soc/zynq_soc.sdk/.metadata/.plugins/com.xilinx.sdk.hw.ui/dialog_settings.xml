@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="webserver" key="applicationwizard.hw_platform_key"/>
+	<item value="webserver" key="bspwizard.hw_platform_key"/>
+</section>

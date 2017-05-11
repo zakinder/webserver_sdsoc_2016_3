@@ -1,0 +1,14 @@
+00:48:32 **** Incremental Build of configuration Debug for project webserver ****
+make pre-build main-build 
+sdsoc_make_clean Debug
+' '
+'Building file: ../src/webserver.c'
+'Invoking: SDSCC Compiler'
+sdscc -Wall -O0 -g -I"../src" -c -fmessage-length=0 -MT"src/webserver.o" -MMD -MP -MF"src/webserver.d" -MT"src/webserver.o" -o "src/webserver.o" "../src/webserver.c" -sds-sys-config standalone -sds-proc a9_0 -sds-pf C:/Sim/arch/zynq_soc/zynq_soc.sdsoc
+ERROR: [SDSoC 0-0] Software platform XML error, sdx:includePaths value aarch32-none/include path does not exist C:/Sim/arch/zynq_soc/zynq_soc.sdsoc/sw/aarch32-none/include, platform path C:/Sim/arch/zynq_soc/zynq_soc.sdsoc, sdx:configuration standalone, sdx:processorGroup a9_0
+ERROR: [SDSoC 0-0] Build failed
+
+make: *** [src/webserver.o] Error 1
+
+00:48:35 Build Finished (took 2s.413ms)
+
