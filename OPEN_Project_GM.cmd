@@ -55,7 +55,7 @@ REM PROJECT DIRECTORY
 @echo ----
 @echo ----Set Xilinx environment variables----
 @set VIVADO_XSETTINGS=%XILDIR%\%VIVADO_VERSION%\Vivado\.settings64-Vivado.bat
-@set SDK_XSETTINGS=%XILDIR%\%VIVADO_VERSION%\SDK\.settings64-Software_Development_Kit.bat
+REM @set SDK_XSETTINGS=%XILDIR%\%VIVADO_VERSION%\SDK\.settings64-Software_Development_Kit.bat
 @set LABTOOL_XSETTINGS=%XILDIR%\Vivado_Lab\%VIVADO_VERSION%\settings64.bat
 @if not defined ENABLE_SDSOC (
   @set ENABLE_SDSOC=1

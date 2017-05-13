@@ -53,7 +53,7 @@ REM PROJECT DIRECTORY
 @call %mylocalpath%design_basic_settings.cmd
 @echo -- SET XILINX ENVIRONMENT VARIABLES
 @set VIVADO_XSETTINGS=%XILDIR%\%VIVADO_VERSION%\Vivado\.settings64-Vivado.bat
-@set SDK_XSETTINGS=%XILDIR%\%VIVADO_VERSION%\SDK\.settings64-Software_Development_Kit.bat
+REM @set SDK_XSETTINGS=%XILDIR%\%VIVADO_VERSION%\SDK\.settings64-Software_Development_Kit.bat
 @set LABTOOL_XSETTINGS=%XILDIR%\Vivado_Lab\%VIVADO_VERSION%\settings64.bat
 REM ENABLE SDSOC
 @if not defined ENABLE_SDSOC (

@@ -12,7 +12,7 @@ setlocal
 @echo ----
 @echo ----Set Xilinx environment variables----
 @set VIVADO_XSETTINGS=%XILDIR%\%VIVADO_VERSION%\Vivado\.settings64-Vivado.bat
-@set SDK_XSETTINGS=%XILDIR%\%VIVADO_VERSION%\SDK\.settings64-Software_Development_Kit.bat
+REM @set SDK_XSETTINGS=%XILDIR%\%VIVADO_VERSION%\SDK\.settings64-Software_Development_Kit.bat
 @set LABTOOL_XSETTINGS=%XILDIR%\Vivado_Lab\%VIVADO_VERSION%\settings64.bat
 @set SDSOC_XSETTINGS=%XILDIR%\%VIVADO_VERSION%\settings64SDx.bat
 @if not defined ENABLE_SDSOC (
@@ -47,7 +47,7 @@ setlocal
   @if not exist %SDK_XSETTINGS% ( @echo -- Info: %SDK_XSETTINGS% not found --
   ) else (
     @call %SDK_XSETTINGS%
-    @set SDK_AVAILABLE=1
+    @set SDK_AVAILABLE=0
   )
   @set SDK_XSETTINGS_ISDONE=1
 )

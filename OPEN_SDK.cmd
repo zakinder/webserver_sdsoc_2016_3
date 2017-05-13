@@ -1,44 +1,40 @@
 setlocal
-REM PROJECT DIRECTORY
+@echo Set design paths----
 @set batchfile_name=%~n0
 @set batchfile_drive=%~d0
 @set batchfile_path=%~dp0
 @%batchfile_drive%
 @cd %batchfile_path%
-@echo -- RUN DESIGN WITH: %batchfile_name%
-@echo -- USE DESIGN PATH: %batchfile_path%
+@echo -- Run Design with: %batchfile_name%
+@echo -- Use Design Path: %batchfile_path%
+@echo ----Load basic design settings----
 @call %mylocalpath%design_basic_settings.cmd
-@echo -- SET XILINX ENVIRONMENT VARIABLES
+@echo ----
+@echo ----Set Xilinx environment variables----
 @set VIVADO_XSETTINGS=%XILDIR%\%VIVADO_VERSION%\Vivado\.settings64-Vivado.bat
 REM @set SDK_XSETTINGS=%XILDIR%\%VIVADO_VERSION%\SDK\.settings64-Software_Development_Kit.bat
 @set LABTOOL_XSETTINGS=%XILDIR%\Vivado_Lab\%VIVADO_VERSION%\settings64.bat
-
-
-REM ENABLE SDSOC
+@set SDSOC_XSETTINGS=%XILDIR%\%VIVADO_VERSION%\settings64SDx.bat
 @if not defined ENABLE_SDSOC (
-  @set ENABLE_SDSOC=0
+  @set ENABLE_SDSOC=1
 )
 @if %ENABLE_SDSOC%==1 (
-@echo -- INFO: SDSOC SETTINGS ARE DISABLED FOR THIS CMD FILE
+  @echo --Info: SDSOC Settings are disabled for this cmd file --
+  REM @set SDSOC_XSETTINGS=%XILDIR%\%VIVADO_VERSION%\settings64SDx.bat
 )
-REM VIVADO AVAILABLE
 @if not defined VIVADO_AVAILABLE (
   @set VIVADO_AVAILABLE=0
 )
-REM SDK AVAILABLE
 @if not defined SDK_AVAILABLE (
   @set SDK_AVAILABLE=0
 )
-REM LABTOOL AVAILABLE
 @if not defined LABTOOL_AVAILABLE (
   @set LABTOOL_AVAILABLE=0
 )
-REM SDSOC AVAILABLE
 @if not defined SDSOC_AVAILABLE (
   @set SDSOC_AVAILABLE=0
 )
-REM XILINX VERSION PRINT
-@echo -- USE XILINX VERSION: %VIVADO_VERSION% --
+@echo -- Use Xilinx Version: %VIVADO_VERSION% --
 @if not defined VIVADO_XSETTINGS_ISDONE ( @echo --Info: Configure Xilinx Vivado Settings --
   @if not exist %VIVADO_XSETTINGS% ( @echo -- Info: %VIVADO_XSETTINGS% not found --
   ) else (
@@ -47,7 +43,6 @@ REM XILINX VERSION PRINT
   )
   @set VIVADO_XSETTINGS_ISDONE=1
 )
-REM SDK SETTINGS IS DONE
 @if not defined SDK_XSETTINGS_ISDONE ( @echo --Info: Configure Xilinx SDK Settings --
   @if not exist %SDK_XSETTINGS% ( @echo -- Info: %SDK_XSETTINGS% not found --
   ) else (
@@ -56,7 +51,6 @@ REM SDK SETTINGS IS DONE
   )
   @set SDK_XSETTINGS_ISDONE=1
 )
-REM LABTOOL SETTINGS_IS DONE
 @if not defined LABTOOL_XSETTINGS_ISDONE ( @echo --Info: Configure Xilinx LabTools Settings --
   @if not exist %LABTOOL_XSETTINGS% ( @echo -- Info: %LABTOOL_XSETTINGS% not found --
   ) else (
@@ -65,7 +59,6 @@ REM LABTOOL SETTINGS_IS DONE
   )
   @set LABTOOL_XSETTINGS_ISDONE=1
 )
-REM SDSOC SETTINGS IS DONE
 @if not defined SDSOC_XSETTINGS_ISDONE ( @echo --Info: Configure Xilinx SDSoC Settings --
   @if not exist %SDSOC_XSETTINGS% ( @echo -- Info: %SDSOC_XSETTINGS% not found --
   ) else (
@@ -74,47 +67,37 @@ REM SDSOC SETTINGS IS DONE
   )
   @set SDSOC_XSETTINGS_ISDONE=1
 )
-REM VIVADO_AVAILABLE
+@echo ----
+@set SCRIPTSHELL=0
 @if %VIVADO_AVAILABLE%==1 (
-  @goto  RUN
+  @set SCRIPTSHELL=1
 )
-REM LABTOOL_AVAILABLE
 @if %LABTOOL_AVAILABLE%==1 (
+  @set SCRIPTSHELL=1
+ )
+@if "%SDSOC_AVAILABLE%;%SCRIPTSHELL%"=="1;1" (
   @goto  RUN
 )
+@echo -- Error: Need SDK and vivado or labtools to run. --
 @goto  ERROR
-REM RUN
 :RUN
-@echo ----check old project exists----
-@echo Delete project will delete all generated files like vivado, labtools, workspace,... folders!
-set  creatProject=Y
-@echo User Input: "%creatProject%"
-if "%creatProject%"=="n" (GOTO EOF)
-@echo Start clear project..."
 @echo ----Change to log folder----
 @set vlog_folder=%batchfile_path%v_log
-@set vlog_folderv=%batchfile_path%vivado
 @echo %vlog_folder%
 @if not exist %vlog_folder% ( @mkdir %vlog_folder% )   
 @cd %vlog_folder%
 @echo ----
-@echo %vlog_folderv%
-@if not exist %vlog_folderv% ( @mkdir %vlog_folderv% )   
-@cd %vlog_folderv%
 @echo -Start VIVADO scripts ----
 @if %VIVADO_AVAILABLE%==1 (
-  call vivado -source ../scripts/script_main.tcl  -mode batch -notrace -tclargs --clear_all
+  call vivado -source ../scripts/script_main.tcl  -mode batch -notrace -tclargs --run_prebuild_sdk --boardpart %PARTNUMBER%
 ) else (
-  call vivado_lab -source ../scripts/script_main.tcl  -mode batch -notrace -tclargs --clear_all --labtools
+  call vivado_lab -source ../scripts/script_main.tcl  -mode batch -notrace -tclargs --run_prebuild_sdk --boardpart %PARTNUMBER% --labtools
 )
+@echo -scripts finished----
+@echo ----
+@echo ----Change to design folder----
 @cd..
-REM REMOVE LOG FOLDER
-@echo REMOVE LOG FOLDER
-@if exist %vlog_folder% ( @echo -- REMOVE OLD VLOG FILES AND FOLDER --
-@rd %vlog_folder% /s /q )   
-@if exist %vlog_folderv% ( @echo -- REMOVE OLD VLOG FILES AND FOLDER --
-@rd %vlog_folderv% /s /q )  				
-REM DESIGN FINISHED
+@echo Design finished----
 @if not defined DO_NOT_CLOSE_SHELL (
   @set DO_NOT_CLOSE_SHELL=0
 )
@@ -122,5 +105,8 @@ REM DESIGN FINISHED
   PAUSE
 )
 GOTO EOF
-REM ERROR
 :ERROR
+@echo ---Error occurs----
+@echo ----
+PAUSE
+:EOF
