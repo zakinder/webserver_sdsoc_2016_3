@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="sd_accel_axi_gpio_0_0_synth_1" LaunchDir="D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/sd_accel_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sd_accel_ocl_block_0_0_synth_1" LaunchDir="D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/sd_accel_ocl_block_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="bd_4831_master_bridge_0_0_synth_1"/>
+		<Parent Id="bd_4831_kernel_0_0_synth_1"/>
+		<Parent Id="bd_4831_sys_reset_0_synth_1"/>
+		<Parent Id="bd_4831_slave_bridge_0_synth_1"/>
+		<Parent Id="bd_4831_s00_regslice_0_synth_1"/>
+	</Run>
+	<Run Id="bd_4831_master_bridge_0_0_synth_1" LaunchDir="D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/bd_4831_master_bridge_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_4831_kernel_0_0_synth_1" LaunchDir="D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/bd_4831_kernel_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_4831_sys_reset_0_synth_1" LaunchDir="D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/bd_4831_sys_reset_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_4831_slave_bridge_0_synth_1" LaunchDir="D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/bd_4831_slave_bridge_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sd_accel_processing_system7_0_0_synth_1" LaunchDir="D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/sd_accel_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sd_accel_xbar_0_synth_1" LaunchDir="D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/sd_accel_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bd_4831_s00_regslice_0_synth_1" LaunchDir="D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/bd_4831_s00_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sd_accel_auto_pc_0_synth_1" LaunchDir="D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/sd_accel_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sd_accel_rst_ps7_0_100M_0_synth_1" LaunchDir="D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/sd_accel_rst_ps7_0_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sd_accel_auto_pc_1_synth_1" LaunchDir="D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/sd_accel_auto_pc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sd_accel_xlconcat_0_0_synth_1" LaunchDir="D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/sd_accel_xlconcat_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sd_accel_zed_audio_ctrl_0_0_synth_1" LaunchDir="D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/sd_accel_zed_audio_ctrl_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="sd_accel_axi_gpio_0_0_synth_1"/>
+		<Parent Id="sd_accel_ocl_block_0_0_synth_1"/>
+		<Parent Id="sd_accel_processing_system7_0_0_synth_1"/>
+		<Parent Id="sd_accel_xbar_0_synth_1"/>
+		<Parent Id="sd_accel_auto_pc_0_synth_1"/>
+		<Parent Id="sd_accel_rst_ps7_0_100M_0_synth_1"/>
+		<Parent Id="sd_accel_auto_pc_1_synth_1"/>
+		<Parent Id="sd_accel_xlconcat_0_0_synth_1"/>
+		<Parent Id="sd_accel_zed_audio_ctrl_0_0_synth_1"/>
+	</Run>
+</Runs>
+

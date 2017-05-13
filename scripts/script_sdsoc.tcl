@@ -312,13 +312,13 @@ namespace eval ZQ {
     # -----------------------------------------
     # --export_vivado_project: ...
     proc export_vivado_sdsoc_project {} {
-      puts "Info:(ZQ) Create SDSOC Vivado Project on: ${ZQ::SDSOC_PATH}/${ZQ::VPROJ_NAME}/vivado/webv1"
-      if { [file exists ${ZQ::SDSOC_PATH}/${ZQ::VPROJ_NAME}/vivado/webv1] } {
-        file delete -force ${ZQ::SDSOC_PATH}/${ZQ::VPROJ_NAME}/vivado/webv1
+      puts "Info:(ZQ) Create SDSOC Vivado Project on: ${ZQ::SDSOC_PATH}/${ZQ::VPROJ_NAME}"
+      if { [file exists ${ZQ::SDSOC_PATH}/${ZQ::VPROJ_NAME}] } {
+        file delete -force ${ZQ::SDSOC_PATH}/${ZQ::VPROJ_NAME}
       }
       archive_project ${ZQ::SDSOC_PATH}/${ZQ::VPROJ_NAME}/${ZQ::VPROJ_NAME}.xpr.zip -temp_dir ${ZQ::VPROJ_PATH}/.Xil/Vivado-xxxx- -force -include_config_settings
       ZQ::EXT::unzip_project ${ZQ::VPROJ_NAME}.xpr.zip ${ZQ::SDSOC_PATH}/${ZQ::VPROJ_NAME}/
-      file rename -force ${ZQ::SDSOC_PATH}/${ZQ::VPROJ_NAME}/${ZQ::VPROJ_NAME} ${ZQ::SDSOC_PATH}/${ZQ::VPROJ_NAME}/vivado/webv1
+      file rename -force ${ZQ::SDSOC_PATH}/${ZQ::VPROJ_NAME}/${ZQ::VPROJ_NAME} ${ZQ::SDSOC_PATH}/${ZQ::VPROJ_NAME}
       file delete -force ${ZQ::SDSOC_PATH}/${ZQ::VPROJ_NAME}/${ZQ::VPROJ_NAME}.xpr.zip
     }
     # -----------------------------------------

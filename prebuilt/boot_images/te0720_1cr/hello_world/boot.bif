@@ -1,6 +1,0 @@
-the_ROM_image:
-{
-    [bootloader]../../../software/te0720_1cr/zynq_fsbl.elf
-    ../../../hardware/te0720_1cr/SOC_V1_ZYNQ.bit
-    ../../../software/te0720_1cr/hello_world.elf
-}

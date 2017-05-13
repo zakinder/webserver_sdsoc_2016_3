@@ -14,9 +14,7 @@ rsa.o: rsa.c fsbl.h zynq_fsbl_bsp/ps7_cortexa9_0/include/xil_io.h \
  zynq_fsbl_bsp/ps7_cortexa9_0/include/xil_io.h \
  zynq_fsbl_bsp/ps7_cortexa9_0/include/xstatus.h \
  zynq_fsbl_bsp/ps7_cortexa9_0/include/xil_assert.h fsbl_debug.h \
- ps7_init.h rsa.h zynq_fsbl_bsp/ps7_cortexa9_0/include/xilrsa.h \
- zynq_fsbl_bsp/ps7_cortexa9_0/include/xwdtps.h \
- zynq_fsbl_bsp/ps7_cortexa9_0/include/xwdtps_hw.h
+ ps7_init.h rsa.h zynq_fsbl_bsp/ps7_cortexa9_0/include/xilrsa.h
 
 fsbl.h:
 
@@ -61,7 +59,3 @@ ps7_init.h:
 rsa.h:
 
 zynq_fsbl_bsp/ps7_cortexa9_0/include/xilrsa.h:
-
-zynq_fsbl_bsp/ps7_cortexa9_0/include/xwdtps.h:
-
-zynq_fsbl_bsp/ps7_cortexa9_0/include/xwdtps_hw.h:

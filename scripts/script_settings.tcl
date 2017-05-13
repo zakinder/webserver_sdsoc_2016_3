@@ -188,7 +188,7 @@ namespace eval ZQ {
       }
       set ZQ::BASEFOLDER [pwd]
       set ZQ::VPROJ_NAME [file tail [pwd]]
-      set ZQ::VPROJ_PATH [pwd]/vivado/webserver
+      set ZQ::VPROJ_PATH [pwd]/hw/vivado
       set ZQ::VLABPROJ_PATH [pwd]/vivado_lab
       # --
       set ZQ::BOARDDEF_PATH [pwd]/board_files
@@ -214,7 +214,7 @@ namespace eval ZQ {
       set ZQ::PREBUILT_SW_PATH ${ZQ::PREBUILT_PATH}/software
       set ZQ::PREBUILT_OS_PATH ${ZQ::PREBUILT_PATH}/os
       # --
-      set ZQ::LOG_PATH [pwd]/v_log/webserver
+      set ZQ::LOG_PATH [pwd]/v_log
       set ZQ::BACKUP_PATH [pwd]/backup
       # --
       set ZQ::ZIP_PATH ""

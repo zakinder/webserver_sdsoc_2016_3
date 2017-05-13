@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3_sdx (64-bit)
+# SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
+# IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
+# Start of session at: Sat May 13 00:52:33 2017
+# Process ID: 1380
+# Current directory: D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/sd_accel_processing_system7_0_0_synth_1
+# Command line: vivado.exe -log sd_accel_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sd_accel_processing_system7_0_0.tcl
+# Log file: D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/sd_accel_processing_system7_0_0_synth_1/sd_accel_processing_system7_0_0.vds
+# Journal file: D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/sd_accel_processing_system7_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source sd_accel_processing_system7_0_0.tcl -notrace

@@ -19,8 +19,6 @@ main.o: main.c fsbl.h zynq_fsbl_bsp/ps7_cortexa9_0/include/xil_io.h \
  zynq_fsbl_bsp/ps7_cortexa9_0/include/xil_exception.h \
  zynq_fsbl_bsp/ps7_cortexa9_0/include/xstatus.h fsbl_hooks.h \
  zynq_fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h \
- zynq_fsbl_bsp/ps7_cortexa9_0/include/xwdtps.h \
- zynq_fsbl_bsp/ps7_cortexa9_0/include/xwdtps_hw.h \
  zynq_fsbl_bsp/ps7_cortexa9_0/include/xuartps_hw.h
 
 fsbl.h:
@@ -82,9 +80,5 @@ zynq_fsbl_bsp/ps7_cortexa9_0/include/xstatus.h:
 fsbl_hooks.h:
 
 zynq_fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h:
-
-zynq_fsbl_bsp/ps7_cortexa9_0/include/xwdtps.h:
-
-zynq_fsbl_bsp/ps7_cortexa9_0/include/xwdtps_hw.h:
 
 zynq_fsbl_bsp/ps7_cortexa9_0/include/xuartps_hw.h:

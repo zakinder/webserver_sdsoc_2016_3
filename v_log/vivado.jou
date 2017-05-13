@@ -2,11 +2,11 @@
 # Vivado v2016.3_sdx (64-bit)
 # SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
 # IP Build 1720686 on Mon Nov 28 12:39:17 MST 2016
-# Start of session at: Tue May 09 04:52:10 2017
-# Process ID: 15272
-# Current directory: D:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/v_log
+# Start of session at: Sat May 13 00:50:41 2017
+# Process ID: 14012
+# Current directory: D:/OneDrive/GitHub/webserver_sdsoc_2016_3/v_log
 # Command line: vivado.exe -source ../scripts/script_main.tcl -mode batch -notrace -tclargs --run 2 --clean 2 --boardpart 5
-# Log file: D:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/v_log/vivado.log
-# Journal file: D:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/v_log\vivado.jou
+# Log file: D:/OneDrive/GitHub/webserver_sdsoc_2016_3/v_log/vivado.log
+# Journal file: D:/OneDrive/GitHub/webserver_sdsoc_2016_3/v_log\vivado.jou
 #-----------------------------------------------------------
 source ../scripts/script_main.tcl -notrace

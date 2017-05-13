@@ -16,9 +16,7 @@ pcap.o: pcap.c pcap.h zynq_fsbl_bsp/ps7_cortexa9_0/include/xdevcfg.h \
  zynq_fsbl_bsp/ps7_cortexa9_0/include/xil_printf.h fsbl_debug.h \
  ps7_init.h image_mover.h \
  zynq_fsbl_bsp/ps7_cortexa9_0/include/xil_exception.h \
- zynq_fsbl_bsp/ps7_cortexa9_0/include/sleep.h \
- zynq_fsbl_bsp/ps7_cortexa9_0/include/xwdtps.h \
- zynq_fsbl_bsp/ps7_cortexa9_0/include/xwdtps_hw.h
+ zynq_fsbl_bsp/ps7_cortexa9_0/include/sleep.h
 
 pcap.h:
 
@@ -67,7 +65,3 @@ image_mover.h:
 zynq_fsbl_bsp/ps7_cortexa9_0/include/xil_exception.h:
 
 zynq_fsbl_bsp/ps7_cortexa9_0/include/sleep.h:
-
-zynq_fsbl_bsp/ps7_cortexa9_0/include/xwdtps.h:
-
-zynq_fsbl_bsp/ps7_cortexa9_0/include/xwdtps_hw.h:

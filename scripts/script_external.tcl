@@ -512,7 +512,7 @@ namespace eval ZQ {
         puts $result
         puts ".......................................finished"
         } else {
-          "Warning:(ZQ) Zip not specified. set zip path and *exe of the zip program in  design_basic_settings.cmd file : example 7zip: @set ZIP_PATH=C:/Program Files (x86)/7-Zip/7z.exe"
+          "Warning:(ZQ) Zip not specified. set zip path and *exe of the zip program in  design_basic_settings.cmd file : example 7zip: @set ZIP_PATH=C:/Sim/WEBSERVER/zynq_soc/zip/App/7-Zip/7z.exe"
         }
     }
     # -----------------------------------------

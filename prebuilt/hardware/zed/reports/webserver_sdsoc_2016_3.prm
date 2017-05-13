@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX1
+Size               32M
+Start Address      0x00000000
+End Address        0x01FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x003DBAFB    May 13 00:59:04 2017    D:/OneDrive/GitHub/webserver_sdsoc_2016_3/hw/vivado/webserver_sdsoc_2016_3.runs/impl_1/sd_accel_wrapper.bit

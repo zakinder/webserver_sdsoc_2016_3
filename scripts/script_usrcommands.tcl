@@ -754,7 +754,7 @@ namespace eval ZQ {
     if {$run_help} {
       puts "Description:\n\
             Generate Zip file from current project in folder $ZQ::BACKUP_PATH.\n\
-            ./software/zip/zip.exe is needed to run.\n\
+            ./software/zip/App/7-Zip/zip.exe is needed to run.\n\
             "
       puts "Syntax:\n\
             ZQ::util_zip_project \[-save_all\] \[-remove_prebuilt\] \[-manual_filename <arg>\] \[-help\]\n\

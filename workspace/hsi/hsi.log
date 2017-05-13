@@ -2,16 +2,16 @@
 # hsi v2016.3_sdx (64-bit)
 # SW Build 1721784 on Tue Nov 29 22:12:44 MST 2016
 # 
-# Start of session at: Tue May 09 04:58:12 2017
-# Process ID: 6788
-# Current directory: D:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/workspace/hsi
-# Command line: hsi.exe -source D:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/scripts/script_hsi.tcl -tclargs --sw_list {{id appname steps OS-Name UART data01_file data01_load data01_offset data02_file data02_load data02_offset} {0 zynq_fsbl FSBL standalone NA NA NA NA NA NA NA} {2 hello_world 0 standalone NA NA NA NA NA NA NA} {3 u-boot 1 petalinux NA NA NA NA NA NA NA}} --lib {D:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/sw_lib D:/xilinx_git/device-tree-xlnx} --vivrun -mode tcl
-# Log file: D:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/workspace/hsi/hsi.log
-# Journal file: D:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/workspace/hsi\hsi.jou
+# Start of session at: Sat May 13 00:59:26 2017
+# Process ID: 10588
+# Current directory: D:/OneDrive/GitHub/webserver_sdsoc_2016_3/workspace/hsi
+# Command line: hsi.exe -source D:/OneDrive/GitHub/webserver_sdsoc_2016_3/scripts/script_hsi.tcl -tclargs --sw_list {{id appname steps OS-Name UART data01_file data01_load data01_offset data02_file data02_load data02_offset} {0 zynq_fsbl FSBL standalone NA NA NA NA NA NA NA} {2 hello_world 0 standalone NA NA NA NA NA NA NA} {3 u-boot 1 petalinux NA NA NA NA NA NA NA}} --lib {D:/OneDrive/GitHub/webserver_sdsoc_2016_3/sw_lib D:/xilinx_git/device-tree-xlnx} --vivrun -mode tcl
+# Log file: D:/OneDrive/GitHub/webserver_sdsoc_2016_3/workspace/hsi/hsi.log
+# Journal file: D:/OneDrive/GitHub/webserver_sdsoc_2016_3/workspace/hsi\hsi.jou
 #-----------------------------------------------------------
 start_gui
 invalid command name "common::start_gui"
-source D:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/scripts/script_hsi.tcl
+source D:/OneDrive/GitHub/webserver_sdsoc_2016_3/scripts/script_hsi.tcl
 # namespace eval ZQ {
 #   namespace eval HSI {
 #     # -----------------------------------------
@@ -251,11 +251,11 @@ Info:(ZQ) Parameter Option: --sw_list
 Info:(ZQ) Parameter Option Value: {id appname steps OS-Name UART data01_file data01_load data01_offset data02_file data02_load data02_offset} {0 zynq_fsbl FSBL standalone NA NA NA NA NA NA NA} {2 hello_world 0 standalone NA NA NA NA NA NA NA} {3 u-boot 1 petalinux NA NA NA NA NA NA NA}
 Info:(ZQ) Parameter Index: 2
 Info:(ZQ) Parameter Option: --lib
-Info:(ZQ) Parameter Option Value: D:/GITHUB_EXTERNAL/webserver_sdsoc_2016_3/sw_lib D:/xilinx_git/device-tree-xlnx
+Info:(ZQ) Parameter Option Value: D:/OneDrive/GitHub/webserver_sdsoc_2016_3/sw_lib D:/xilinx_git/device-tree-xlnx
 Info:(ZQ) Parameter Index: 4
 Info:(ZQ) Parameter Option: --vivrun
 Info:(ZQ) HSI...run all...
-INFO: [Hsi 55-1698] elapsed time for repository loading 0 seconds
+INFO: [Hsi 55-1698] elapsed time for repository loading 1 seconds
 Info:(ZQ) generate FSBL: zynq_fsbl os: standalone Uart: NA
 Info:(ZQ) Multiple Processors found.
 Info:(ZQ)  Processor ps7_cortexa9_0 is used.
@@ -266,18 +266,15 @@ Info:(ZQ)  Processor ps7_cortexa9_0 is used.
 "Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
 "Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
 "Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_2/src"
-"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_3/src"
 "Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
 "Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
 "Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
 "Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
 "Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
-"Running Make include in ps7_cortexa9_0/libsrc/Sine_v1_0/src"
 "Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
 "Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_1/src"
 "Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
-"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
-"Running Make include in ps7_cortexa9_0/libsrc/wdtps_v3_0/src"
 "Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
 "Running Make include in ps7_cortexa9_0/libsrc/xilffs_v3_4/src"
 "Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_2/src"
@@ -296,8 +293,8 @@ arm-none-eabi-ar: creating ../../../lib/libxil.a
 "Compiling emacps"
 "Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_2/src"
 "Compiling gpio"
-"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
-"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_3/src"
+"Compiling iicps"
 "Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
 "Compiling qspips"
 "Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
@@ -308,25 +305,19 @@ arm-none-eabi-ar: creating ../../../lib/libxil.a
 "Compiling scuwdt"
 "Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
 "Compiling sdps"
-"Running Make libs in ps7_cortexa9_0/libsrc/Sine_v1_0/src"
-"Compiling Sine..."
 "Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
 "Compiling standalone"
 "Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_1/src"
 "Compiling ttcps"
 "Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
 "Compiling uartps"
-"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
-"Compiling usbps"
-"Running Make libs in ps7_cortexa9_0/libsrc/wdtps_v3_0/src"
-"Compiling wdtps"
 "Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
 "Compiling xadcps"
 "Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v3_4/src"
 "Compiling XilFFs Library"
 "Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_2/src"
 'Finished building libraries'
-generate_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 121.941 ; gain = 12.883
+generate_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 122.004 ; gain = 13.219
 arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_fsbl_bsp/ps7_cortexa9_0/include -I.
 arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c image_mover.c -o image_mover.o -Izynq_fsbl_bsp/ps7_cortexa9_0/include -I.
 arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c main.c -o main.o -Izynq_fsbl_bsp/ps7_cortexa9_0/include -I.
@@ -341,7 +332,7 @@ arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   
 arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c te_fsbl_hooks.c -o te_fsbl_hooks.o -Izynq_fsbl_bsp/ps7_cortexa9_0/include -I.
 arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c fsbl_handoff.S -o fsbl_handoff.o -Izynq_fsbl_bsp/ps7_cortexa9_0/include -I.
 arm-none-eabi-gcc -o executable.elf  fsbl_hooks.o  image_mover.o  main.o  md5.o  nand.o  nor.o  pcap.o  ps7_init.o  qspi.o  rsa.o  sd.o  te_fsbl_hooks.o  fsbl_handoff.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group  -Wl,--gc-sections -Lzynq_fsbl_bsp/ps7_cortexa9_0/lib -L./ -Tlscript.ld
-generate_app: Time (s): cpu = 00:00:06 ; elapsed = 00:00:32 . Memory (MB): peak = 121.941 ; gain = 12.883
+generate_app: Time (s): cpu = 00:00:06 ; elapsed = 00:00:31 . Memory (MB): peak = 122.004 ; gain = 13.219
 Info:(ZQ) generate app: hello_world os: standalone Uart: NA
 Info:(ZQ) Multiple Processors found.
 Info:(ZQ)  Processor ps7_cortexa9_0 is used.
@@ -352,18 +343,15 @@ Info:(ZQ)  Processor ps7_cortexa9_0 is used.
 "Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_2/src"
 "Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_3/src"
 "Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_2/src"
-"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_3/src"
 "Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
 "Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
 "Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
 "Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
 "Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
-"Running Make include in ps7_cortexa9_0/libsrc/Sine_v1_0/src"
 "Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
 "Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_1/src"
 "Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
-"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
-"Running Make include in ps7_cortexa9_0/libsrc/wdtps_v3_0/src"
 "Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
 "Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src"
 "Compiling coresightps_dcc"
@@ -380,8 +368,8 @@ arm-none-eabi-ar: creating ../../../lib/libxil.a
 "Compiling emacps"
 "Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_2/src"
 "Compiling gpio"
-"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
-"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_3/src"
+"Compiling iicps"
 "Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
 "Compiling qspips"
 "Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_4/src"
@@ -392,23 +380,17 @@ arm-none-eabi-ar: creating ../../../lib/libxil.a
 "Compiling scuwdt"
 "Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_0/src"
 "Compiling sdps"
-"Running Make libs in ps7_cortexa9_0/libsrc/Sine_v1_0/src"
-"Compiling Sine..."
 "Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_0/src"
 "Compiling standalone"
 "Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_1/src"
 "Compiling ttcps"
 "Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_2/src"
 "Compiling uartps"
-"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
-"Compiling usbps"
-"Running Make libs in ps7_cortexa9_0/libsrc/wdtps_v3_0/src"
-"Compiling wdtps"
 "Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
 "Compiling xadcps"
 'Finished building libraries'
 arm-none-eabi-gcc -MMD -MP     -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c helloworld.c -o helloworld.o -Ihello_world_bsp/ps7_cortexa9_0/include -I.
 arm-none-eabi-gcc -MMD -MP     -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c platform.c -o platform.o -Ihello_world_bsp/ps7_cortexa9_0/include -I.
 arm-none-eabi-gcc -o executable.elf  helloworld.o  platform.o  -MMD -MP     -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,--start-group,-lxil,-lgcc,-lc,--end-group  -Wl,--gc-sections -Lhello_world_bsp/ps7_cortexa9_0/lib -Tlscript.ld
-generate_app: Time (s): cpu = 00:00:00 ; elapsed = 00:00:24 . Memory (MB): peak = 121.941 ; gain = 0.000
-INFO: [Common 17-206] Exiting hsi at Tue May 09 04:59:10 2017...
+generate_app: Time (s): cpu = 00:00:00 ; elapsed = 00:00:23 . Memory (MB): peak = 122.004 ; gain = 0.000
+INFO: [Common 17-206] Exiting hsi at Sat May 13 01:00:23 2017...
